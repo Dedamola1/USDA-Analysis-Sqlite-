@@ -29,7 +29,7 @@ UPDATE cheese_production_new  SET "    Value"  = REPLACE("    Value" , '
 
 DROP TABLE cheese_production;
 
-ALTER TABLE cheese_production_n RENAME YO cheese_production;
+ALTER TABLE cheese_production_n RENAME TO cheese_production;
 
 
 
