@@ -89,7 +89,7 @@ WHERE State_ANSI NOT IN (SELECT State_ANSI
 						WHERE "Year" =2023
 );
 
--- Cheese production values and states in april 20234
+-- Cheese production values and states in april 2023
 SELECT "Year" , 
 		Period, 
 		sl.State, 
